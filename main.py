@@ -63,7 +63,7 @@ class Suprematizm(QWidget):
             self.qp.drawPolygon(poly)
 
 
-if name == 'main':
+if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = Suprematizm()
 
